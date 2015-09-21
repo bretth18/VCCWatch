@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D887D2C91BB08E0A00AA095F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D2C81BB08E0A00AA095F /* AppDelegate.swift */; };
+		D887D2CB1BB08E0A00AA095F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D2CA1BB08E0A00AA095F /* ViewController.swift */; };
+		D887D2CE1BB08E0A00AA095F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D887D2CC1BB08E0A00AA095F /* Main.storyboard */; };
+		D887D2D01BB08E0A00AA095F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D887D2CF1BB08E0A00AA095F /* Assets.xcassets */; };
+		D887D2D31BB08E0A00AA095F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D887D2D11BB08E0A00AA095F /* LaunchScreen.storyboard */; };
+		D887D2DE1BB08E0A00AA095F /* VCCWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D2DD1BB08E0A00AA095F /* VCCWatchTests.swift */; };
+		D887D2E91BB08E0A00AA095F /* VCCWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D2E81BB08E0A00AA095F /* VCCWatchUITests.swift */; };
+		D887D2EE1BB08E0A00AA095F /* VCCWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D887D2ED1BB08E0A00AA095F /* VCCWatch WatchKit App.app */; };
+		D887D2F41BB08E0A00AA095F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D887D2F21BB08E0A00AA095F /* Interface.storyboard */; };
+		D887D2F61BB08E0A00AA095F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D887D2F51BB08E0A00AA095F /* Assets.xcassets */; };
+		D887D2FD1BB08E0A00AA095F /* VCCWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D887D2FC1BB08E0A00AA095F /* VCCWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D887D3041BB08E0A00AA095F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D3031BB08E0A00AA095F /* InterfaceController.swift */; };
+		D887D3061BB08E0A00AA095F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D3051BB08E0A00AA095F /* ExtensionDelegate.swift */; };
+		D887D3081BB08E0A00AA095F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D3071BB08E0A00AA095F /* NotificationController.swift */; };
+		D887D30A1BB08E0A00AA095F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D887D3091BB08E0A00AA095F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D887D2DA1BB08E0A00AA095F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D887D2BD1BB08E0A00AA095F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D887D2C41BB08E0A00AA095F;
+			remoteInfo = VCCWatch;
+		};
+		D887D2E51BB08E0A00AA095F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D887D2BD1BB08E0A00AA095F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D887D2C41BB08E0A00AA095F;
+			remoteInfo = VCCWatch;
+		};
+		D887D2EF1BB08E0A00AA095F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D887D2BD1BB08E0A00AA095F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D887D2EC1BB08E0A00AA095F;
+			remoteInfo = "VCCWatch WatchKit App";
+		};
+		D887D2FE1BB08E0A00AA095F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D887D2BD1BB08E0A00AA095F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D887D2FB1BB08E0A00AA095F;
+			remoteInfo = "VCCWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D887D3111BB08E0A00AA095F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D887D2FD1BB08E0A00AA095F /* VCCWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D3151BB08E0A00AA095F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D887D2EE1BB08E0A00AA095F /* VCCWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D887D2C51BB08E0A00AA095F /* VCCWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCCWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D887D2C81BB08E0A00AA095F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D887D2CA1BB08E0A00AA095F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D887D2CD1BB08E0A00AA095F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D887D2CF1BB08E0A00AA095F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D887D2D21BB08E0A00AA095F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D887D2D41BB08E0A00AA095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D887D2D91BB08E0A00AA095F /* VCCWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCCWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D887D2DD1BB08E0A00AA095F /* VCCWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCWatchTests.swift; sourceTree = "<group>"; };
+		D887D2DF1BB08E0A00AA095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D887D2E41BB08E0A00AA095F /* VCCWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCCWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D887D2E81BB08E0A00AA095F /* VCCWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCWatchUITests.swift; sourceTree = "<group>"; };
+		D887D2EA1BB08E0A00AA095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D887D2ED1BB08E0A00AA095F /* VCCWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VCCWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D887D2F31BB08E0A00AA095F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D887D2F51BB08E0A00AA095F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D887D2F71BB08E0A00AA095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D887D2FC1BB08E0A00AA095F /* VCCWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VCCWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D887D3021BB08E0A00AA095F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D887D3031BB08E0A00AA095F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D887D3051BB08E0A00AA095F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D887D3071BB08E0A00AA095F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D887D3091BB08E0A00AA095F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D887D30B1BB08E0A00AA095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D887D2C21BB08E0A00AA095F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D2D61BB08E0A00AA095F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D2E11BB08E0A00AA095F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D2F91BB08E0A00AA095F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D887D2BC1BB08E0A00AA095F = {
+			isa = PBXGroup;
+			children = (
+				D887D2C71BB08E0A00AA095F /* VCCWatch */,
+				D887D2DC1BB08E0A00AA095F /* VCCWatchTests */,
+				D887D2E71BB08E0A00AA095F /* VCCWatchUITests */,
+				D887D2F11BB08E0A00AA095F /* VCCWatch WatchKit App */,
+				D887D3001BB08E0A00AA095F /* VCCWatch WatchKit Extension */,
+				D887D2C61BB08E0A00AA095F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D887D2C61BB08E0A00AA095F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D887D2C51BB08E0A00AA095F /* VCCWatch.app */,
+				D887D2D91BB08E0A00AA095F /* VCCWatchTests.xctest */,
+				D887D2E41BB08E0A00AA095F /* VCCWatchUITests.xctest */,
+				D887D2ED1BB08E0A00AA095F /* VCCWatch WatchKit App.app */,
+				D887D2FC1BB08E0A00AA095F /* VCCWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D887D2C71BB08E0A00AA095F /* VCCWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D887D2C81BB08E0A00AA095F /* AppDelegate.swift */,
+				D887D2CA1BB08E0A00AA095F /* ViewController.swift */,
+				D887D2CC1BB08E0A00AA095F /* Main.storyboard */,
+				D887D2CF1BB08E0A00AA095F /* Assets.xcassets */,
+				D887D2D11BB08E0A00AA095F /* LaunchScreen.storyboard */,
+				D887D2D41BB08E0A00AA095F /* Info.plist */,
+			);
+			path = VCCWatch;
+			sourceTree = "<group>";
+		};
+		D887D2DC1BB08E0A00AA095F /* VCCWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				D887D2DD1BB08E0A00AA095F /* VCCWatchTests.swift */,
+				D887D2DF1BB08E0A00AA095F /* Info.plist */,
+			);
+			path = VCCWatchTests;
+			sourceTree = "<group>";
+		};
+		D887D2E71BB08E0A00AA095F /* VCCWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D887D2E81BB08E0A00AA095F /* VCCWatchUITests.swift */,
+				D887D2EA1BB08E0A00AA095F /* Info.plist */,
+			);
+			path = VCCWatchUITests;
+			sourceTree = "<group>";
+		};
+		D887D2F11BB08E0A00AA095F /* VCCWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D887D2F21BB08E0A00AA095F /* Interface.storyboard */,
+				D887D2F51BB08E0A00AA095F /* Assets.xcassets */,
+				D887D2F71BB08E0A00AA095F /* Info.plist */,
+			);
+			path = "VCCWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		D887D3001BB08E0A00AA095F /* VCCWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D887D3031BB08E0A00AA095F /* InterfaceController.swift */,
+				D887D3051BB08E0A00AA095F /* ExtensionDelegate.swift */,
+				D887D3071BB08E0A00AA095F /* NotificationController.swift */,
+				D887D3091BB08E0A00AA095F /* Assets.xcassets */,
+				D887D30B1BB08E0A00AA095F /* Info.plist */,
+				D887D3011BB08E0A00AA095F /* Supporting Files */,
+			);
+			path = "VCCWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D887D3011BB08E0A00AA095F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D887D3021BB08E0A00AA095F /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D887D2C41BB08E0A00AA095F /* VCCWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D887D3161BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatch" */;
+			buildPhases = (
+				D887D2C11BB08E0A00AA095F /* Sources */,
+				D887D2C21BB08E0A00AA095F /* Frameworks */,
+				D887D2C31BB08E0A00AA095F /* Resources */,
+				D887D3151BB08E0A00AA095F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D887D2F01BB08E0A00AA095F /* PBXTargetDependency */,
+			);
+			name = VCCWatch;
+			productName = VCCWatch;
+			productReference = D887D2C51BB08E0A00AA095F /* VCCWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D887D2D81BB08E0A00AA095F /* VCCWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D887D3191BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatchTests" */;
+			buildPhases = (
+				D887D2D51BB08E0A00AA095F /* Sources */,
+				D887D2D61BB08E0A00AA095F /* Frameworks */,
+				D887D2D71BB08E0A00AA095F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D887D2DB1BB08E0A00AA095F /* PBXTargetDependency */,
+			);
+			name = VCCWatchTests;
+			productName = VCCWatchTests;
+			productReference = D887D2D91BB08E0A00AA095F /* VCCWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D887D2E31BB08E0A00AA095F /* VCCWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D887D31C1BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatchUITests" */;
+			buildPhases = (
+				D887D2E01BB08E0A00AA095F /* Sources */,
+				D887D2E11BB08E0A00AA095F /* Frameworks */,
+				D887D2E21BB08E0A00AA095F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D887D2E61BB08E0A00AA095F /* PBXTargetDependency */,
+			);
+			name = VCCWatchUITests;
+			productName = VCCWatchUITests;
+			productReference = D887D2E41BB08E0A00AA095F /* VCCWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D887D2EC1BB08E0A00AA095F /* VCCWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D887D3121BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatch WatchKit App" */;
+			buildPhases = (
+				D887D2EB1BB08E0A00AA095F /* Resources */,
+				D887D3111BB08E0A00AA095F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D887D2FF1BB08E0A00AA095F /* PBXTargetDependency */,
+			);
+			name = "VCCWatch WatchKit App";
+			productName = "VCCWatch WatchKit App";
+			productReference = D887D2ED1BB08E0A00AA095F /* VCCWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D887D2FB1BB08E0A00AA095F /* VCCWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D887D30E1BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatch WatchKit Extension" */;
+			buildPhases = (
+				D887D2F81BB08E0A00AA095F /* Sources */,
+				D887D2F91BB08E0A00AA095F /* Frameworks */,
+				D887D2FA1BB08E0A00AA095F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VCCWatch WatchKit Extension";
+			productName = "VCCWatch WatchKit Extension";
+			productReference = D887D2FC1BB08E0A00AA095F /* VCCWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D887D2BD1BB08E0A00AA095F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Brett Henderson";
+				TargetAttributes = {
+					D887D2C41BB08E0A00AA095F = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 94XUGF9CU7;
+					};
+					D887D2D81BB08E0A00AA095F = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 94XUGF9CU7;
+						TestTargetID = D887D2C41BB08E0A00AA095F;
+					};
+					D887D2E31BB08E0A00AA095F = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 94XUGF9CU7;
+						TestTargetID = D887D2C41BB08E0A00AA095F;
+					};
+					D887D2EC1BB08E0A00AA095F = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 94XUGF9CU7;
+					};
+					D887D2FB1BB08E0A00AA095F = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 94XUGF9CU7;
+					};
+				};
+			};
+			buildConfigurationList = D887D2C01BB08E0A00AA095F /* Build configuration list for PBXProject "VCCWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D887D2BC1BB08E0A00AA095F;
+			productRefGroup = D887D2C61BB08E0A00AA095F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D887D2C41BB08E0A00AA095F /* VCCWatch */,
+				D887D2D81BB08E0A00AA095F /* VCCWatchTests */,
+				D887D2E31BB08E0A00AA095F /* VCCWatchUITests */,
+				D887D2EC1BB08E0A00AA095F /* VCCWatch WatchKit App */,
+				D887D2FB1BB08E0A00AA095F /* VCCWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D887D2C31BB08E0A00AA095F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887D2D31BB08E0A00AA095F /* LaunchScreen.storyboard in Resources */,
+				D887D2D01BB08E0A00AA095F /* Assets.xcassets in Resources */,
+				D887D2CE1BB08E0A00AA095F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D2D71BB08E0A00AA095F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D2E21BB08E0A00AA095F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D2EB1BB08E0A00AA095F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887D2F61BB08E0A00AA095F /* Assets.xcassets in Resources */,
+				D887D2F41BB08E0A00AA095F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D2FA1BB08E0A00AA095F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887D30A1BB08E0A00AA095F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D887D2C11BB08E0A00AA095F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887D2CB1BB08E0A00AA095F /* ViewController.swift in Sources */,
+				D887D2C91BB08E0A00AA095F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D2D51BB08E0A00AA095F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887D2DE1BB08E0A00AA095F /* VCCWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D2E01BB08E0A00AA095F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887D2E91BB08E0A00AA095F /* VCCWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D2F81BB08E0A00AA095F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887D3081BB08E0A00AA095F /* NotificationController.swift in Sources */,
+				D887D3061BB08E0A00AA095F /* ExtensionDelegate.swift in Sources */,
+				D887D3041BB08E0A00AA095F /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D887D2DB1BB08E0A00AA095F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D887D2C41BB08E0A00AA095F /* VCCWatch */;
+			targetProxy = D887D2DA1BB08E0A00AA095F /* PBXContainerItemProxy */;
+		};
+		D887D2E61BB08E0A00AA095F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D887D2C41BB08E0A00AA095F /* VCCWatch */;
+			targetProxy = D887D2E51BB08E0A00AA095F /* PBXContainerItemProxy */;
+		};
+		D887D2F01BB08E0A00AA095F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D887D2EC1BB08E0A00AA095F /* VCCWatch WatchKit App */;
+			targetProxy = D887D2EF1BB08E0A00AA095F /* PBXContainerItemProxy */;
+		};
+		D887D2FF1BB08E0A00AA095F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D887D2FB1BB08E0A00AA095F /* VCCWatch WatchKit Extension */;
+			targetProxy = D887D2FE1BB08E0A00AA095F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D887D2CC1BB08E0A00AA095F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D887D2CD1BB08E0A00AA095F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D887D2D11BB08E0A00AA095F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D887D2D21BB08E0A00AA095F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D887D2F21BB08E0A00AA095F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D887D2F31BB08E0A00AA095F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D887D30C1BB08E0A00AA095F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D887D30D1BB08E0A00AA095F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D887D30F1BB08E0A00AA095F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VCCWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brett.henderson.VCCWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D887D3101BB08E0A00AA095F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VCCWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brett.henderson.VCCWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D887D3131BB08E0A00AA095F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = VCCWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "VCCWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = brett.henderson.VCCWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D887D3141BB08E0A00AA095F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = VCCWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "VCCWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = brett.henderson.VCCWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D887D3171BB08E0A00AA095F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VCCWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brett.henderson.VCCWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D887D3181BB08E0A00AA095F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VCCWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brett.henderson.VCCWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D887D31A1BB08E0A00AA095F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VCCWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brett.henderson.VCCWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VCCWatch.app/VCCWatch";
+			};
+			name = Debug;
+		};
+		D887D31B1BB08E0A00AA095F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VCCWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brett.henderson.VCCWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VCCWatch.app/VCCWatch";
+			};
+			name = Release;
+		};
+		D887D31D1BB08E0A00AA095F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VCCWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brett.henderson.VCCWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VCCWatch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D887D31E1BB08E0A00AA095F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VCCWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brett.henderson.VCCWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VCCWatch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D887D2C01BB08E0A00AA095F /* Build configuration list for PBXProject "VCCWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D887D30C1BB08E0A00AA095F /* Debug */,
+				D887D30D1BB08E0A00AA095F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D887D30E1BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D887D30F1BB08E0A00AA095F /* Debug */,
+				D887D3101BB08E0A00AA095F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D887D3121BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D887D3131BB08E0A00AA095F /* Debug */,
+				D887D3141BB08E0A00AA095F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D887D3161BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D887D3171BB08E0A00AA095F /* Debug */,
+				D887D3181BB08E0A00AA095F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D887D3191BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D887D31A1BB08E0A00AA095F /* Debug */,
+				D887D31B1BB08E0A00AA095F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D887D31C1BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D887D31D1BB08E0A00AA095F /* Debug */,
+				D887D31E1BB08E0A00AA095F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D887D2BD1BB08E0A00AA095F /* Project object */;
+}
