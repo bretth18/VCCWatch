@@ -22,6 +22,7 @@
 		D887D3061BB08E0A00AA095F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D3051BB08E0A00AA095F /* ExtensionDelegate.swift */; };
 		D887D3081BB08E0A00AA095F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D3071BB08E0A00AA095F /* NotificationController.swift */; };
 		D887D30A1BB08E0A00AA095F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D887D3091BB08E0A00AA095F /* Assets.xcassets */; };
+		D887D3211BB096E900AA095F /* CRAFTY_UUIDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D3201BB096E900AA095F /* CRAFTY_UUIDS.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,8 @@
 		D887D3071BB08E0A00AA095F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		D887D3091BB08E0A00AA095F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D887D30B1BB08E0A00AA095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D887D31F1BB096E800AA095F /* VCCWatch WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VCCWatch WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
+		D887D3201BB096E900AA095F /* CRAFTY_UUIDS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRAFTY_UUIDS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +192,9 @@
 			isa = PBXGroup;
 			children = (
 				D887D2E81BB08E0A00AA095F /* VCCWatchUITests.swift */,
+				D887D3201BB096E900AA095F /* CRAFTY_UUIDS.swift */,
 				D887D2EA1BB08E0A00AA095F /* Info.plist */,
+				D887D31F1BB096E800AA095F /* VCCWatch WatchKit App-Bridging-Header.h */,
 			);
 			path = VCCWatchUITests;
 			sourceTree = "<group>";
@@ -323,6 +328,7 @@
 		D887D2BD1BB08E0A00AA095F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Brett Henderson";
 				TargetAttributes = {
@@ -427,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D887D2CB1BB08E0A00AA095F /* ViewController.swift in Sources */,
+				D887D3211BB096E900AA095F /* CRAFTY_UUIDS.swift in Sources */,
 				D887D2C91BB08E0A00AA095F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -623,13 +630,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = VCCWatch_WatchKit_Extension;
 				INFOPLIST_FILE = "VCCWatch WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = brett.henderson.VCCWatch.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VCCWatchUITests/VCCWatch WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -639,13 +650,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = VCCWatch_WatchKit_Extension;
 				INFOPLIST_FILE = "VCCWatch WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = brett.henderson.VCCWatch.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VCCWatchUITests/VCCWatch WatchKit App-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
