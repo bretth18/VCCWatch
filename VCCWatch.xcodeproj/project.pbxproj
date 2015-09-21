@@ -329,6 +329,11 @@
 					D887D2C41BB08E0A00AA095F = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 94XUGF9CU7;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					D887D2D81BB08E0A00AA095F = {
 						CreatedOnToolsVersion = 7.0;
@@ -735,6 +740,7 @@
 				D887D3101BB08E0A00AA095F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D887D3121BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatch WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -743,6 +749,7 @@
 				D887D3141BB08E0A00AA095F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D887D3161BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatch" */ = {
 			isa = XCConfigurationList;
@@ -751,6 +758,7 @@
 				D887D3181BB08E0A00AA095F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D887D3191BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -759,6 +767,7 @@
 				D887D31B1BB08E0A00AA095F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D887D31C1BB08E0A00AA095F /* Build configuration list for PBXNativeTarget "VCCWatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -767,6 +776,7 @@
 				D887D31E1BB08E0A00AA095F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
