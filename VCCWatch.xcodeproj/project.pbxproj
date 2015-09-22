@@ -23,6 +23,7 @@
 		D887D3081BB08E0A00AA095F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D3071BB08E0A00AA095F /* NotificationController.swift */; };
 		D887D30A1BB08E0A00AA095F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D887D3091BB08E0A00AA095F /* Assets.xcassets */; };
 		D887D3211BB096E900AA095F /* CRAFTY_UUIDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D3201BB096E900AA095F /* CRAFTY_UUIDS.swift */; settings = {ASSET_TAGS = (); }; };
+		D8F9E2E61BB1CDE8005295A8 /* CRAFTY_COM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9E2E51BB1CDE8005295A8 /* CRAFTY_COM.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		D887D30B1BB08E0A00AA095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D887D31F1BB096E800AA095F /* VCCWatch WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VCCWatch WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
 		D887D3201BB096E900AA095F /* CRAFTY_UUIDS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRAFTY_UUIDS.swift; sourceTree = "<group>"; };
+		D8F9E2E51BB1CDE8005295A8 /* CRAFTY_COM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRAFTY_COM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 			children = (
 				D887D2E81BB08E0A00AA095F /* VCCWatchUITests.swift */,
 				D887D3201BB096E900AA095F /* CRAFTY_UUIDS.swift */,
+				D8F9E2E51BB1CDE8005295A8 /* CRAFTY_COM.swift */,
 				D887D2EA1BB08E0A00AA095F /* Info.plist */,
 				D887D31F1BB096E800AA095F /* VCCWatch WatchKit App-Bridging-Header.h */,
 			);
@@ -434,6 +437,7 @@
 			files = (
 				D887D2CB1BB08E0A00AA095F /* ViewController.swift in Sources */,
 				D887D3211BB096E900AA095F /* CRAFTY_UUIDS.swift in Sources */,
+				D8F9E2E61BB1CDE8005295A8 /* CRAFTY_COM.swift in Sources */,
 				D887D2C91BB08E0A00AA095F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
