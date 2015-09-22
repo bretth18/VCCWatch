@@ -148,6 +148,10 @@ class Communicator: CraftyCommunicator {
                 (data.model == null) ->
                 return readCharacteristic(META_DATA_UUID, MODEL_UUID
                 
+                
+                //TODO:
+                //FINISH ENTERING UUID MODEL FOR BASE FUNCTION
+                
             }
         }
         
