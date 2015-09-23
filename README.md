@@ -1,6 +1,9 @@
 # VCCWatch
-Bluetooth Low Enegery Controller for WatchOS2
+Bluetooth Low Energy Controller for WatchOS2
+Currently under development by Brett Henderson
 
-This is an open source application intended for use with vaporizers featuring Bluetooth Low Energy (Crafty)
+Interested in the project?
+Feel free to contribute ideas
 
-
+This is an open source application intended for use with Bluetooth Low Energy devices
+- iPhone 4S and above
