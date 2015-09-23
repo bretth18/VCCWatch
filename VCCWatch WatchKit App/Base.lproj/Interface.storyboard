@@ -10,15 +10,15 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="VCCWatch_WatchKit_App" customModuleProvider="target">
                     <items>
+                        <button width="1" alignment="left" accessibilityLabel="Up" title="Up" id="jIk-hD-vvi" userLabel="Button1"/>
+                        <button width="1" alignment="left" title="Down" id="UhF-5E-o31"/>
                         <separator alignment="left" id="pH7-IG-o5K"/>
-                        <button width="1" alignment="left" title="Button" id="jIk-hD-vvi"/>
-                        <button width="1" alignment="left" title="Button" id="UhF-5E-o31"/>
-                        <button width="1" alignment="left" title="Button" id="lV8-WE-Fvq"/>
-                        <label width="132.5" alignment="left" text="Label" id="FB3-eU-pUR"/>
+                        <button width="1" alignment="left" title="Boost" id="lV8-WE-Fvq"/>
+                        <label width="132.5" alignment="left" text="CurrentTemp: " id="FB3-eU-pUR"/>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="135" y="388"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
