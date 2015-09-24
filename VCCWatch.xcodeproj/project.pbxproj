@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81656D41BB477FA00CAEBD8 /* VCData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81656D31BB477FA00CAEBD8 /* VCData.swift */; settings = {ASSET_TAGS = (); }; };
 		D872E30E1BB3363500B36966 /* sharedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D872E30D1BB3363500B36966 /* sharedPreferences.swift */; settings = {ASSET_TAGS = (); }; };
 		D887D2C91BB08E0A00AA095F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D2C81BB08E0A00AA095F /* AppDelegate.swift */; };
 		D887D2CB1BB08E0A00AA095F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D2CA1BB08E0A00AA095F /* ViewController.swift */; };
@@ -84,6 +85,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D81656D31BB477FA00CAEBD8 /* VCData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCData.swift; path = ../VCData.swift; sourceTree = "<group>"; };
 		D872E30D1BB3363500B36966 /* sharedPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sharedPreferences.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D887D2C51BB08E0A00AA095F /* VCCWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCCWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D887D2C81BB08E0A00AA095F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,8 +112,8 @@
 		D887D3091BB08E0A00AA095F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D887D30B1BB08E0A00AA095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D887D31F1BB096E800AA095F /* VCCWatch WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VCCWatch WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
-		D887D3201BB096E900AA095F /* CRAFTY_UUIDS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRAFTY_UUIDS.swift; sourceTree = "<group>"; };
-		D8F9E2E51BB1CDE8005295A8 /* CRAFTY_COM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRAFTY_COM.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D887D3201BB096E900AA095F /* CRAFTY_UUIDS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CRAFTY_UUIDS.swift; path = VCCWatchUITests/CRAFTY_UUIDS.swift; sourceTree = SOURCE_ROOT; };
+		D8F9E2E51BB1CDE8005295A8 /* CRAFTY_COM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CRAFTY_COM.swift; path = VCCWatchUITests/CRAFTY_COM.swift; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,9 @@
 				D887D2C81BB08E0A00AA095F /* AppDelegate.swift */,
 				D872E30D1BB3363500B36966 /* sharedPreferences.swift */,
 				D887D2CA1BB08E0A00AA095F /* ViewController.swift */,
+				D81656D31BB477FA00CAEBD8 /* VCData.swift */,
+				D887D3201BB096E900AA095F /* CRAFTY_UUIDS.swift */,
+				D8F9E2E51BB1CDE8005295A8 /* CRAFTY_COM.swift */,
 				D887D2CC1BB08E0A00AA095F /* Main.storyboard */,
 				D887D2CF1BB08E0A00AA095F /* Assets.xcassets */,
 				D887D2D11BB08E0A00AA095F /* LaunchScreen.storyboard */,
@@ -197,8 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				D887D2E81BB08E0A00AA095F /* VCCWatchUITests.swift */,
-				D887D3201BB096E900AA095F /* CRAFTY_UUIDS.swift */,
-				D8F9E2E51BB1CDE8005295A8 /* CRAFTY_COM.swift */,
 				D887D2EA1BB08E0A00AA095F /* Info.plist */,
 				D887D31F1BB096E800AA095F /* VCCWatch WatchKit App-Bridging-Header.h */,
 			);
@@ -438,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81656D41BB477FA00CAEBD8 /* VCData.swift in Sources */,
 				D887D2CB1BB08E0A00AA095F /* ViewController.swift in Sources */,
 				D887D3211BB096E900AA095F /* CRAFTY_UUIDS.swift in Sources */,
 				D8F9E2E61BB1CDE8005295A8 /* CRAFTY_COM.swift in Sources */,
