@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D81656D41BB477FA00CAEBD8 /* VCData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81656D31BB477FA00CAEBD8 /* VCData.swift */; settings = {ASSET_TAGS = (); }; };
+		D86C7EA51BB9BEE200767DDA /* DataDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C7EA41BB9BEE200767DDA /* DataDisplay.swift */; settings = {ASSET_TAGS = (); }; };
 		D872E30E1BB3363500B36966 /* sharedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D872E30D1BB3363500B36966 /* sharedPreferences.swift */; settings = {ASSET_TAGS = (); }; };
 		D887D2C91BB08E0A00AA095F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D2C81BB08E0A00AA095F /* AppDelegate.swift */; };
 		D887D2CB1BB08E0A00AA095F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D2CA1BB08E0A00AA095F /* ViewController.swift */; };
@@ -86,6 +87,7 @@
 
 /* Begin PBXFileReference section */
 		D81656D31BB477FA00CAEBD8 /* VCData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCData.swift; path = ../VCData.swift; sourceTree = "<group>"; };
+		D86C7EA41BB9BEE200767DDA /* DataDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataDisplay.swift; path = ../DataDisplay.swift; sourceTree = "<group>"; };
 		D872E30D1BB3363500B36966 /* sharedPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sharedPreferences.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D887D2C51BB08E0A00AA095F /* VCCWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCCWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D887D2C81BB08E0A00AA095F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 		D887D2C71BB08E0A00AA095F /* VCCWatch */ = {
 			isa = PBXGroup;
 			children = (
+				D86C7EA41BB9BEE200767DDA /* DataDisplay.swift */,
 				D887D2C81BB08E0A00AA095F /* AppDelegate.swift */,
 				D872E30D1BB3363500B36966 /* sharedPreferences.swift */,
 				D887D2CA1BB08E0A00AA095F /* ViewController.swift */,
@@ -446,6 +449,7 @@
 				D887D3211BB096E900AA095F /* CRAFTY_UUIDS.swift in Sources */,
 				D8F9E2E61BB1CDE8005295A8 /* CRAFTY_COM.swift in Sources */,
 				D887D2C91BB08E0A00AA095F /* AppDelegate.swift in Sources */,
+				D86C7EA51BB9BEE200767DDA /* DataDisplay.swift in Sources */,
 				D872E30E1BB3363500B36966 /* sharedPreferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
